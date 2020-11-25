@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#77E25F"
+    android:padding="10dp"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_upNameID"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#1954BB"
+        android:textColorHint="#1A48A5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpAgeID"
+        android:hint="Age"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#1954BB"
+        android:textColorHint="#1A48A5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_upEmailID"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#1954BB"
+        android:textColorHint="#1A48A5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_upPasswordID"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#1A48A5"
+        android:textColorHint="#1A48A5"
+        />
+
+    <Button
+        android:id="@+id/signUpButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_design"
+        android:textAppearance="@style/Widget.AppCompat.Button.Borderless.Colored"
+        />
+    <TextView
+        android:id="@+id/signInTextID"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you not registered?Sign In"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:textAppearance="@style/Widget.AppCompat.Button.Borderless.Colored"
+        />
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpProgressbarId"/>
+
+
+</LinearLayout>

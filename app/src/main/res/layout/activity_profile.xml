@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="#56E247"
+    tools:context=".ProfileActivity">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/party1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Awami League"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/party2Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh Nationalist Party"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/party3Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jatiya Party"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ButtonId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="vote"/>
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
